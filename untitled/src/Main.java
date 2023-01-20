@@ -18,6 +18,12 @@ public class Main {
         else
             System.out.println("The number you enter it wasn't prime");
 
+
+
+
+
+
+
         // question 2# : find if the number is binary or not
         //hi I am PenguinZain
         Integer num2 = input.nextInt();
@@ -33,7 +39,6 @@ public class Main {
             System.out.println("The number you enter it wasn't binary");
         else
             System.out.println("The number you enter it was binary");
-
 
     }
 }
