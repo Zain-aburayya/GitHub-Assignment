@@ -21,7 +21,7 @@ public class Main {
         // question 2# : find if the number is binary or not
         //hi I am PenguinZain
         Integer num2 = input.nextInt();
-        boolean isBinary = true;
+        boolean isBinary = false;
         String numToString = num2.toString();
         for(int i = 0 ; i < numToString.length() ; i++){
             if(numToString.charAt(i) != '0' || numToString.charAt(i) != '1'){
