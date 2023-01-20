@@ -20,6 +20,20 @@ public class Main {
 
         // question 2# : find if the number is binary or not
         //hi I am PenguinZain
+        Integer num2 = input.nextInt();
+        boolean isBinary = false;
+        String numToString = num2.toString();
+        for(int i = 0 ; i < numToString.length() ; i++){
+            if(numToString.charAt(i) != '0' || numToString.charAt(i) != '1'){
+                isBinary = true;
+                break;
+            }
+        }
+        if(isBinary == false)
+            System.out.println("The number you enter it wasn't binary");
+        else
+            System.out.println("The number you enter it was binary");
+
 
     }
 }
