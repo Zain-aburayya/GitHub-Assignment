@@ -4,5 +4,7 @@ public class Main {
         // hi I am Zain
 
         // question 2# : find if the number is binary or not
+        //hi I am PenguinZain
+
     }
 }
